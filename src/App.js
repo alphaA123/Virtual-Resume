@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import "./App.css";
+import Navbar from "./components/Navbar/navbar"
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Html from "./components/Html";
+import Javascript from "./components/Javascript";
+import Mongodb from "./components/Mongodb";
+import Node from "./components/Node";
+import Reactjs from "./components/Reactjs";
+import Footer from "./components/Footer/Footer";
+import Abhishek from "./components/Abhishek"
+function App(){
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Navbar /> */}
+      <Switch>
+      <Route exact path="/" component={Navbar} />
+      <Route exact path="/Html" component={Html} />
+      <Route exact path="/Javascript" component={Javascript} />
+      <Route exact path="/Mongodb" component={Mongodb} />
+      <Route exact path="/Node" component={Node} />
+      <Route exact path="/Reactjs" component={Reactjs} />
+      <Route exact path="/Abhishek" component={Abhishek}/>
+      </Switch>
+      <Footer/>
     </div>
   );
 }
