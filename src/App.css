@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "IBM Plex Serif", serif;
+  /* font-family: 'Roboto Mono', monospace; */
 }
 
 #profile_img {
@@ -19,6 +20,13 @@
   text-align: center;
   font-size: 50px;
   padding: 10px;
+  font-family: 'Roboto Mono', monospace;
+}
+#click{
+  margin-left: 30px;
+  font-family: 'Roboto Mono', monospace;
+  padding: 10px;
+  font-size: 20px;
 }
 
 .body_align {
@@ -33,6 +41,7 @@
   padding: 5px;
   letter-spacing: 2px;
   color:rgb(73, 63, 252);
+
 }
 .body_align p {
   font-size: medium;
@@ -49,4 +58,32 @@ h6 {
 
 ul {
   margin-left: 30px;
+}
+
+
+/* Cards */
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.555);
+  transition: 0.3s;
+  height:400px;
+  width:500px;
+  padding:20px;
+  margin-bottom:20px;
+  margin-left:30px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.align_card{
+  display:inline-block;
 }

@@ -7,7 +7,6 @@ import Mongodb from "./components/Mongodb";
 import Node from "./components/Node";
 import Reactjs from "./components/Reactjs";
 import Footer from "./components/Footer/Footer";
-
 import Home from "./components/Home";
 
 function App(){

@@ -1,19 +1,24 @@
 import React from "react";
 import Navbar from "./Navbar/navbar";
+import Pic from "../images/react1.jpg"
+import Card from "./Card";
 
 const Reactjs = () => {
   return (
     <>
       <Navbar />
-      <h2>React JS Library</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-        facilis, iure similique nemo est quidem illo temporibus cumque optio
-        perspiciatis eveniet, dolorum quaerat velit distinctio ab voluptatibus
-        adipisci possimus maiores! Odit fugit, hic unde perferendis, natus
-        incidunt beatae laborum tempora nostrum tenetur vitae consequuntur quis
-        suscipit illum modi animi assumenda.
-      </p>
+      <h2 id="heading">React JS Library</h2>
+      <p id="click">Current Website Itself is made with React. </p>
+      <Card
+        title={"My Resume"}
+        site={"#"}
+        url={Pic}
+        description={
+          "A React website that shows up my Virtual Resume"
+        }
+      />
+      
+      <p id="heading">More Projects Coming Soon ...</p>
     </>
   );
 };

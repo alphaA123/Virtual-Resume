@@ -17,6 +17,7 @@ html {
   border-top: 1px solid #e5e5e5;
   background: linear-gradient(90deg,rgb(110,94,254)0%,rgba(73,63,252,1) 100%);
   margin-bottom: 0px;
+  
 }
 
 .footer > * {
@@ -65,12 +66,12 @@ html {
 }
 
 
-.footer_links{
-  position: absolute;
-  bottom: -800px;
-  left: 600px;
-}
+
 .footer_links a{
   padding:5px;
-  color:white;
+  color:black;
+}
+#ftext{
+   font-family: 'Roboto Mono', monospace;
+
 }

@@ -1,19 +1,30 @@
 import React from "react";
 import Navbar from "./Navbar/navbar";
+import Pic1 from "../images/Js2.jpg";
+import Pic from "../images/Js1.jpg";
+import Card from "./Card"
 
 const Javascript = () => {
   return (
     <>
       <Navbar />
-      <h2>JavaScript</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime
-        facilis, iure similique nemo est quidem illo temporibus cumque optio
-        perspiciatis eveniet, dolorum quaerat velit distinctio ab voluptatibus
-        adipisci possimus maiores! Odit fugit, hic unde perferendis, natus
-        incidunt beatae laborum tempora nostrum tenetur vitae consequuntur quis
-        suscipit illum modi animi assumenda.
-      </p>
+      <h2 id="heading">JavaScript</h2>
+      <p id="click">Click on Image to Navigate to the Website. </p>
+      <Card
+        title={"MARTIAL ARTS SIMULATOR"}
+        site={"https://alphaa123.github.io/Drum/"}
+        url={Pic}
+        description={"Martial Arts Simulator made with JavaScript Canvas."}
+      />
+      <Card
+        title={"DRUM MANIA"}
+        site={"https://alphaa123.github.io/martial-arts-simulator/"}
+        url={Pic1}
+        description={
+          "Drum Mania App lets you play diffrent instruments sounds by making use of JavaScript Events "
+        }
+      />
+      <p id="heading">More Projects Coming Soon ...</p>
     </>
   );
 };

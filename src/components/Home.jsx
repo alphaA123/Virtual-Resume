@@ -96,8 +96,29 @@ const Home = () => {
           </ul>
         </div>
         <div>
-            <h4>PROJECTS</h4>
-             <p>--> Please Click on Technology buttons on Navbar to get info about projects.</p>
+          <h4>PROJECTS</h4>
+          <p>
+            --> Please Click on Technology buttons on Navbar to get info about
+            projects.
+          </p>
+        </div>
+        <div className="footer_links">
+          <h4>PROFILE LINKS</h4>
+          <a href="https://github.com/alphaA123" target="blank">
+            👉Github
+          </a>
+          <br />
+          <a
+            href="https://linkedin.com/in/abhishek-kumar-b38108154"
+            target="blank"
+          >
+            👉Linkdn
+          </a>
+          <br />
+          <a href={"../images/Resume.pdf"} download>
+            👉Click Here
+          </a>{" "}
+          to download Resume in pdf format.
         </div>
       </div>
     </>
