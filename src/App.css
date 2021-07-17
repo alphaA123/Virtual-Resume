@@ -1,6 +1,52 @@
-*{
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-family: "IBM Plex Serif", serif;
+}
+
+#profile_img {
+  border-radius: 50px;
+  width: auto;
+  height: 300px;
+  padding: 10px;
+  margin-left: 70px;
+  position: relative;
+  bottom: 900px;
+  left: 100px;
+}
+#heading {
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.body_align {
+  display: inline-block;
+  position: relative;
+  left: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.body_align h4 {
+  font-size: 20px;
+  padding: 5px;
+  letter-spacing: 2px;
+  color:rgb(73, 63, 252);
+}
+.body_align p {
+  font-size: medium;
+  margin-left: 10px;
+}
+hr {
+  margin: 20px;
+}
+.body_align h5,
+h6 {
+  font-size: medium;
+  margin-left: 10px;
+}
+
+ul {
+  margin-left: 30px;
 }

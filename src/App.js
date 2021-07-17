@@ -7,21 +7,23 @@ import Mongodb from "./components/Mongodb";
 import Node from "./components/Node";
 import Reactjs from "./components/Reactjs";
 import Footer from "./components/Footer/Footer";
-import Abhishek from "./components/Abhishek"
+
+import Home from "./components/Home";
+
 function App(){
   return (
     <div className="App">
       {/* <Navbar /> */}
       <Switch>
-      <Route exact path="/" component={Navbar} />
-      <Route exact path="/Html" component={Html} />
-      <Route exact path="/Javascript" component={Javascript} />
-      <Route exact path="/Mongodb" component={Mongodb} />
-      <Route exact path="/Node" component={Node} />
-      <Route exact path="/Reactjs" component={Reactjs} />
-      <Route exact path="/Abhishek" component={Abhishek}/>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/Home" component={Home} />
+        <Route exact path="/Html" component={Html} />
+        <Route exact path="/Javascript" component={Javascript} />
+        <Route exact path="/Mongodb" component={Mongodb} />
+        <Route exact path="/Node" component={Node} />
+        <Route exact path="/Reactjs" component={Reactjs} />
       </Switch>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
