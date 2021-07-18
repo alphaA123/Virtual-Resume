@@ -9,12 +9,12 @@
 #profile_img {
   border-radius: 50px;
   width: auto;
-  height: 300px;
+  height: 250px;
   padding: 10px;
   margin-left: 70px;
   position: relative;
-  bottom: 900px;
-  left: 100px;
+  bottom: 1000px;
+  /* left: 100px; */
 }
 #heading {
   text-align: center;
@@ -32,7 +32,8 @@
 .body_align {
   display: inline-block;
   position: relative;
-  left: 300px;
+  left: 100px;
+  /* left: 300px; */
   margin-top: 50px;
   margin-bottom: 50px;
 }
